@@ -72,7 +72,7 @@
                     data.forEach(session => {
                         const sessionDiv = document.createElement('div');
                         sessionDiv.className = 'session';
-                        sessionDiv.innerHTML = `<strong>Points:</strong> ${session.points} <br> <strong>Timestamp:</strong> ${new Date(session.timestamp * 1000).toLocaleString()}`;
+                        sessionDiv.innerHTML = `<strong>Marks:</strong> ${session.points} <br> <strong>Timestamp:</strong> ${new Date(session.timestamp * 1000).toLocaleString()}`;
                         resultsDiv.appendChild(sessionDiv);
                     });
                 } else {
